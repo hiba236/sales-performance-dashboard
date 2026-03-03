@@ -9,6 +9,7 @@
 ## 🎯 Business Problem
 
 Sales managers spend hours waiting for weekly reports. They need instant access to:
+
 - Team performance metrics
 - Revenue trends
 - Individual salesperson rankings
@@ -93,35 +94,45 @@ src/
 ## 🧩 React Concepts Demonstrated
 
 ### 1. Component Composition
+
 Reusable components with single responsibility principle:
+
 - `<KPICard />` - Displays individual metrics
 - `<SalesChart />` - Renders chart visualizations
 - `<FilterPanel />` - Manages filter state
 
 ### 2. Custom Hooks
+
 Encapsulated business logic in reusable hooks:
+
 - `useSalesData()` - Data fetching with loading/error states
 - `useFilters()` - Filter state management
 - `useLocalStorage()` - Persistent state
 
 ### 3. State Management
+
 Local state with `useState` for component-level data
 
 ### 4. Side Effects
+
 Data fetching and subscriptions with `useEffect`
 
 ### 5. Type Safety
+
 Full TypeScript coverage for props, state, and API responses
 
 ### 6. Conditional Rendering
+
 Proper handling of loading, error, and empty states
 
 ### 7. Form Handling
+
 Controlled components with validation
 
 ## 🎓 Learning Outcomes
 
 This project demonstrates:
+
 1. **Clean Architecture**: Separation of concerns (UI, business logic, data layer)
 2. **Professional Folder Structure**: Easy to navigate and scale
 3. **Type-Safe API Integration**: TypeScript interfaces for all data
@@ -166,12 +177,14 @@ npm run test:e2e
 ## 🚀 Deployment
 
 ### Vercel
+
 ```bash
 npm run build
 vercel --prod
 ```
 
 ### Netlify
+
 ```bash
 npm run build
 netlify deploy --prod --dir=dist
@@ -203,6 +216,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
+
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 - Portfolio: [yourwebsite.com](https://yourwebsite.com)
